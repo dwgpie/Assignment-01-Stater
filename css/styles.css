@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+
+/* Chung */
+.section-title-underline {
+  border-bottom: 2px solid black;
+}
+
+.section-title {
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
+.section-content {
+  margin-bottom: 35px;
+}
+
+/* Info */
+.section {
+  position: relative;
+}
+
+#info .section-content {
+  display: flex;
+}
+
+#info .section-title {
+  color: rgb(12, 12, 128);
+  font-size: 30px;
+}
+
+#info .section-content {
+  line-height: 24px;
+}
+
+#info .section-content__main {
+  min-width: initial;
+  margin-right: 30px;
+}
+
+#info .section-content__main-items {
+  font-weight: bold;
+}
+
+.section-content__sub {
+}
+
+.section-content__sub-items {
+  font-weight: 500;
+}
+
+.section-content__img {
+  position: absolute;
+  width: 100px;
+  height: 110px;
+  top: 0px;
+  right: 0px;
+}
+
+/* Mục tiêu nghề nghiệp */
+#target .section-content {
+  margin-top: 24px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+/* Học vấn */
+.section-content__wrap {
+  display: flex;
+  margin-bottom: 10px;
+  line-height: 20px;
+  border-bottom: 1px solid rgb(209, 206, 206);
+}
+
+.section-content__sub-items-title {
+  font-weight: bold;
+}
+
+.section-content__main {
+  min-width: 200px;
+}
+
+/* Kỹ năng */
+#skill .section-content__main-items {
+  font-weight: bold;
+}
+
+/* Sở thích */
+.section-content__list {
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+/* Dự án */
+#project .section-content__title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.section-content__year {
+  margin-bottom: 8px;
+}
+
+#project .section-content__box {
+  margin-bottom: 16px;
+}
+
+.section-content__list-describle {
+  margin-left: 5px;
+}
+
+/* Liên hệ */
+#contact .section-content__list {
+  list-style-type: decimal;
+}
+
+#contact .section-content__list li a {
+  text-decoration: none;
+  color: blue;
+}
